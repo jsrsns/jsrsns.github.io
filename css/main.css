@@ -4,20 +4,18 @@ body {
   line-height: 28px;
 }
 
-.navbar-default {
-  background-color: rgba(255, 255, 255, 0.0);
-  border: none;
+.top-left {
+  background-color: #252525;
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
 }
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #000;
+.top-right {
+  background-color: #252525;
 }
-
-.navbar-default .navbar-brand {
-  color: #000;
+.bottom-left {
+  background-color: #252525;
 }
-
-.navbar-default .navbar-nav > li > a {
-  color: #000;
+.bottom-right {
+  background-color: #252525;
 }
