@@ -4,6 +4,10 @@ body {
   line-height: 28px;
 }
 
-.navbar-default .navbar-nav {
+.navbar-default {
+  background-color: rgba(255, 255, 255, 0.0);
+  border: none;
+}
+.navbar-default .navbar-nav > li > a {
   color: #000;
 }
