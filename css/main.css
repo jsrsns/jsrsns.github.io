@@ -22,10 +22,13 @@ body {
   position: fixed;
   width: 50vw;
   height: 50vh;
+  bottom: 0;
 }
 .bottom-right {
   background-color: #000fff;
   position: fixed;
   width: 50vw;
   height: 50vh;
+  right: 0;
+  bottom: 0;
 }
