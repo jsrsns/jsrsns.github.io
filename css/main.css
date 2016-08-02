@@ -11,11 +11,20 @@ body {
   height: 50vh;
 }
 .top-right {
-  background-color: #252525;
+  background-color: #00ff00;
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
 }
 .bottom-left {
-  background-color: #252525;
+  background-color: #0000ff;
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
 }
 .bottom-right {
-  background-color: #252525;
+  background-color: #000fff;
+  position: fixed;
+  width: 50vw;
+  height: 50vh;
 }
