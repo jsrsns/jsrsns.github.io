@@ -5,27 +5,27 @@ body {
 }
 
 .top-left {
-  background-color: #ff0000;
+  background-color: #000;
   position: fixed;
   width: 50vw;
   height: 50vh;
 }
 .top-right {
-  background-color: #00ff00;
+  background-color: #000;
   position: fixed;
   width: 50vw;
   height: 50vh;
   right: 0;
 }
 .bottom-left {
-  background-color: #fff000;
+  background-color: #000;
   position: fixed;
   width: 50vw;
   height: 50vh;
   bottom: 0;
 }
 .bottom-right {
-  background-color: #000fff;
+  background-color: #000;
   position: fixed;
   width: 50vw;
   height: 50vh;
