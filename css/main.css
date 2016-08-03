@@ -8,6 +8,7 @@ body {
   background-color: transparent;
   background-image: url("/images/Wall.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   position: fixed;
   width: 50vw;
   height: 50vh;
@@ -16,6 +17,7 @@ body {
   background-color: transparent;
   background-image: url("/images/Wall.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   position: fixed;
   width: 50vw;
   height: 50vh;
@@ -25,6 +27,7 @@ body {
   background-color: transparent;
   background-image: url("/images/Wall.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   position: fixed;
   width: 50vw;
   height: 50vh;
@@ -34,6 +37,7 @@ body {
   background-color: transparent;
   background-image: url("/images/Wall.svg");
   background-repeat: no-repeat;
+  background-size: contain;
   position: fixed;
   width: 50vw;
   height: 50vh;
