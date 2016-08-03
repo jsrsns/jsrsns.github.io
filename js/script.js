@@ -7,7 +7,7 @@ var bgImageArray = ['/images/Beam.svg','/images/Big_Stairs.svg','/images/Boxes.s
   selectBG4 = bgImageArray[Math.floor(Math.random() * bgImageArray.length)];
   
 
-$('#top-left').hover(function(){
+$('#top-left')on('mouseover', function(){
   $(this).css('background-image' , 'url(' + selectBG1 + ')')
 });
 $('#top-right').css('background-image', 'url(' + selectBG2 + ')')
