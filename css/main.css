@@ -25,28 +25,32 @@ p {
   min-height: 50px;
 }
 /* Content */
-/* */
-.top-left {
+/* Four tiles */
+#top-left {
   background: transparent url("/images/Wall.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
   height: 50vh;
+  top: 0;
+  left: 0;
 }
-.top-right {
+#top-right {
   background: transparent url("/images/Bricks.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
   height: 50vh;
+  top: 0;
   right: 0;
 }
-.bottom-left {
+#bottom-left {
   background: transparent url("/images/Flag.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
   height: 50vh;
   bottom: 0;
+  left: 0;
 }
-.bottom-right {
+#bottom-right {
   background: transparent url("/images/Stairs.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
@@ -57,3 +61,7 @@ p {
 /* Images */
 
 /* Footer */
+
+/* Responsive */
+
+/* Joes Roosens - jsrsns.be */
