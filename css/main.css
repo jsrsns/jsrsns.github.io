@@ -28,43 +28,26 @@ p {
 /* */
 .top-left {
   background: transparent url("/images/Wall.svg") center/contain no-repeat;
-  /*background-color: transparent;
-  background-image: url("/images/Wall.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;*/
   position: fixed;
   width: 50vw;
   height: 50vh;
 }
 .top-right {
-  background-color: transparent;
-  background-image: url("/images/Bricks.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: transparent url("/images/Bricks.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
   height: 50vh;
   right: 0;
 }
 .bottom-left {
-  background-color: transparent;
-  background-image: url("/images/Flag.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: transparent url("/images/Flag.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
   height: 50vh;
   bottom: 0;
 }
 .bottom-right {
-  background-color: transparent;
-  background-image: url("/images/Stairs.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: transparent url("/images/Stairs.svg") center/contain no-repeat;
   position: fixed;
   width: 50vw;
   height: 50vh;
