@@ -59,6 +59,9 @@ p {
   padding: 15px;
   cursor: pointer;
 }
+#nav li a {
+  color: #000;
+}
 /* Content */
 /* Four tiles */
 #top-left {
