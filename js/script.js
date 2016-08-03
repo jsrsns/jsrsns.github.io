@@ -4,7 +4,7 @@ var images = ['/images/Stairs.svg', '/images/Wall.svg', '#/images/Floor.svg', '/
 
 var changeBG = function() {
   var bgStart = images[Math.floor(Math.random() * images.length)];
-  $(this).css('background-image', 'url(' bgStart ')';
+  $(this).css('background-image', 'url( bgStart )';
 };
 var el = $('#top-left, #top-right, #bottom-left, #bottom-right');
 $.each(el, changeBG);
