@@ -17,10 +17,24 @@ p {
 /* Header, title and navbar */
 #header {
   position: fixed;
-  text-align: left;
-  width: 100%;
+  top: 0;
+  width: 100vw;
+  height: 100px;
+  padding: 30px 0 0;
+  z-index: 2;
 }
-#header img {
+.logo {
+  display: block;
+}
+#nav {
+  display: block;
+  text-align: right;
+}
+#nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+  cursor: pointer;
 }
 /* Content */
 /* Four tiles */
