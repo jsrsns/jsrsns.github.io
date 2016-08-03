@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
 /* Random background image */
 var images = ['/images/Stairs.svg', '/images/Wall.svg', '/images/Floor.svg', '/images/Ladder.svg', '/images/Flag.svg', '/images/Beam.svg', '/images/Boxes.svg', '/images/Bricks.svg'];
 
