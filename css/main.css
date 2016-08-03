@@ -6,23 +6,21 @@ body {
 }
 /* Titles and text */
 h1 {
-  
 }
 h2 {
-  
 }
 p {
-  
 }
 /* Design elements */
 .container {
-  
 }
 /* Header, title and navbar */
-.navbar {
-  background-color:transparent;
-  position: relative;
-  min-height: 50px;
+#header {
+  position: fixed;
+  text-align: left;
+  width: 100%;
+}
+#header img {
 }
 /* Content */
 /* Four tiles */
