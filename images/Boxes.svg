@@ -1,78 +1,142 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="786.463px" height="594.252px" viewBox="0 0 786.463 594.252" style="enable-background:new 0 0 786.463 594.252;"
-	 xml:space="preserve">
-<g id="Boxes">
-	<g id="Boxes_6_">
-		<g id="Boxes_1_">
-			<g>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					182.038,384.217 1.008,279.71 1.008,210.033 182.038,314.539 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					182.033,314.545 423.404,175.193 242.375,70.675 1.003,210.033 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					182.027,384.215 182.027,314.538 423.41,175.192 423.41,244.87 				"/>
-			</g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="846.8px"
+	 height="698.8px" viewBox="0 0 846.8 698.8" style="enable-background:new 0 0 846.8 698.8;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.st0{fill:#222221;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:#222221;}
+	.st4{display:inline;}
+	.st5{display:none;}
+]]>
+</style>
+<g id="Ladder_1_" class="st5">
+	<g id="Ladder" class="st4">
+		<line class="st1" x1="363" y1="662.9" x2="363" y2="105.5"/>
+		<line class="st1" x1="483.7" y1="593.3" x2="483.7" y2="35.8"/>
+		<line class="st1" x1="363" y1="175.2" x2="483.7" y2="105.5"/>
+		<line class="st1" x1="363" y1="244.9" x2="483.7" y2="175.2"/>
+		<line class="st1" x1="363" y1="314.6" x2="483.7" y2="244.9"/>
+		<line class="st1" x1="363" y1="384.2" x2="483.7" y2="314.6"/>
+		<line class="st1" x1="363" y1="453.9" x2="483.7" y2="384.2"/>
+		<line class="st1" x1="363" y1="523.6" x2="483.7" y2="453.9"/>
+		<line class="st1" x1="363.1" y1="593.3" x2="483.7" y2="523.6"/>
+	</g>
+</g>
+<g id="Files_1_" class="st5">
+	<g id="Files" class="st4">
+		<polygon class="st2" points="363,349.4 664.8,523.6 664.8,314.5 363.1,140.4 		"/>
+		<polygon class="st2" points="302.7,384.2 604.4,558.4 604.4,349.4 302.7,175.2 		"/>
+		<polygon class="st2" points="242.4,419.1 544.1,593.3 544.1,384.2 242.4,210 		"/>
+	</g>
+</g>
+<g id="Wide_Stairs_1_" class="st5">
+	<g id="Wide_Stairs" class="st4">
+		<polygon class="st2" points="121.7,419.1 604.4,140.4 664.8,175.2 182,453.9 		"/>
+		<polygon class="st0" points="182,453.9 182,523.6 664.8,244.9 664.8,175.2 		"/>
+		<polygon class="st2" points="182,523.6 664.8,244.9 725.1,279.7 242.4,558.4 		"/>
+		<polygon class="st0" points="242.4,558.4 242.4,628.1 725.1,349.4 725.1,279.7 		"/>
+	</g>
+</g>
+<g id="Bricks_1_" class="st5">
+	<g id="Bricks" class="st4">
+		<polygon class="st2" points="242.4,628.1 242.4,488.7 483.8,349.4 483.8,488.7 		"/>
+		<polygon class="st2" points="363,419.1 363,279.7 604.4,140.4 604.4,279.7 		"/>
+		<polygon class="st2" points="242.4,349.4 242.4,210 483.7,70.7 483.7,210 		"/>
+	</g>
+</g>
+<g id="Boxes_1_">
+	<g id="Boxes">
+		<g>
+			<polygon class="st2" points="242.4,419.1 121.7,349.4 121.7,279.7 242.4,349.4 			"/>
+			<polygon class="st0" points="242.4,349.4 423.4,244.9 302.7,175.2 121.7,279.7 			"/>
+			<polygon class="st2" points="242.4,419.1 242.4,349.4 423.4,244.9 423.4,314.6 			"/>
 		</g>
-		<g id="Boxes_4_">
-			<g>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					182.035,314.542 1.005,210.035 1.005,140.358 182.035,244.864 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					182.03,244.87 423.4,105.518 242.372,1 1,140.358 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					182.024,314.54 182.024,244.863 423.406,105.517 423.406,175.195 				"/>
-			</g>
+		<g>
+			<polygon class="st2" points="242.4,349.4 121.7,279.7 121.7,210 242.4,279.7 			"/>
+			<polygon class="st2" points="242.4,279.7 423.4,175.2 302.7,105.5 121.7,210 			"/>
+			<polygon class="st2" points="242.4,349.4 242.4,279.7 423.4,175.2 423.4,244.9 			"/>
 		</g>
-		<g id="Boxes_2_">
-			<g>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					363.064,488.734 182.035,384.228 182.035,314.551 363.064,419.057 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					363.06,419.062 604.43,279.711 423.402,175.192 182.029,314.551 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					363.054,488.732 363.054,419.056 604.436,279.71 604.436,349.388 				"/>
-			</g>
+		<g>
+			<polygon class="st2" points="363.1,488.8 242.4,419.1 242.4,349.4 363.1,419.1 			"/>
+			<polygon class="st0" points="363,419.1 544.1,314.6 423.4,244.9 242.4,349.4 			"/>
+			<polygon class="st2" points="363,488.7 363,419.1 544.1,314.6 544.1,384.2 			"/>
 		</g>
-		<g id="Boxes_5_">
-			<g>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					363.061,419.059 182.032,314.552 182.032,244.875 363.061,349.381 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					363.057,349.387 604.426,210.036 423.398,105.517 182.026,244.875 				"/>
-				
-					<polygon style="fill:#222221;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					363.051,419.057 363.051,349.381 604.432,210.035 604.432,279.712 				"/>
-			</g>
+		<g>
+			<polygon class="st2" points="363.1,419.1 242.4,349.4 242.4,279.7 363.1,349.4 			"/>
+			<polygon class="st2" points="363,349.4 544.1,244.9 423.4,175.2 242.4,279.7 			"/>
+			<polygon class="st0" points="363,419.1 363,349.4 544.1,244.9 544.1,314.6 			"/>
 		</g>
-		<g id="Boxes_3_">
-			<g>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					544.09,593.252 363.062,488.745 363.062,419.068 544.09,523.574 				"/>
-				
-					<polygon style="fill:#FFFFFF;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					544.086,523.58 785.457,384.229 604.428,279.71 363.056,419.068 				"/>
-				
-					<polygon style="fill:#222221;stroke:#222221;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
-					544.08,593.25 544.08,523.573 785.463,384.228 785.463,453.905 				"/>
-			</g>
+		<g>
+			<polygon class="st2" points="483.7,558.4 363.1,488.8 363.1,419.1 483.7,488.7 			"/>
+			<polygon class="st2" points="483.7,488.8 664.8,384.2 544.1,314.6 363,419.1 			"/>
+			<polygon class="st0" points="483.7,558.4 483.7,488.7 664.8,384.2 664.8,453.9 			"/>
 		</g>
 	</g>
 </g>
-<g id="Layer_1">
+<g id="Pillar_1_" class="st5">
+	<g id="Pillar" class="st4">
+		<polygon class="st2" points="423.4,593.3 302.7,523.6 302.7,175.2 423.4,244.9 		"/>
+		<polygon class="st0" points="423.4,593.3 544.1,523.6 544.1,175.2 423.4,244.9 		"/>
+		<polygon class="st2" points="423.4,105.5 544.1,175.2 423.4,244.9 302.7,175.2 		"/>
+		<path class="st2" d="M483.7,378.1c-20.4-40.5-60.3-36-60.3-36l0,251.1l120.7-69.7v-79.4C507.5,441.1,504.1,418.6,483.7,378.1"/>
+	</g>
+</g>
+<g id="Flag_1_" class="st5">
+	<g id="Flag" class="st4">
+		<path class="st3" d="M483.7,210.7c-51.4,29.6-55.2,8.3-106.5,37.9c-51.4,29.6-30.9,65-82.3,94.6c-51.4,29.6-61.6,12-112.9,41.6
+			l241.4,139.4c51.4-29.6,61.6-12,112.9-41.6c51.4-29.6,30.9-65,82.3-94.6c51.4-29.6,55.2-8.3,106.5-37.9L483.7,210.7z"/>
+		<path class="st2" d="M483.7,192.6c-51.4,29.6-55.2,8.3-106.5,37.9c-51.4,29.6-30.9,65-82.3,94.6c-51.4,29.6-61.6,12-112.9,41.6
+			l241.4,139.4c51.4-29.6,61.6-12,112.9-41.6c51.4-29.6,30.9-65,82.3-94.6c51.4-29.6,55.2-8.3,106.5-37.9L483.7,192.6z"/>
+	</g>
+</g>
+<g id="Beam_1_" class="st5">
+	<g id="Beam" class="st4">
+		<polygon class="st2" points="61.3,662.9 1,628.1 1,558.4 61.3,593.3 		"/>
+		<polygon class="st2" points="1,558.4 61.3,593.3 845.8,140.4 785.4,105.5 		"/>
+		<polygon class="st2" points="61.3,662.9 61.3,593.3 845.8,140.4 845.8,210 		"/>
+	</g>
+</g>
+<g id="Wall_1_" class="st5">
+	<g id="Wall" class="st4">
+		<polygon class="st0" points="725.1,697.8 785.5,662.9 785.5,384.2 725.1,419.1 		"/>
+		<polygon class="st2" points="785.5,384.2 725.1,419.1 121.7,70.7 182,35.8 		"/>
+		<polygon class="st2" points="725.1,419.1 121.7,70.7 121.7,349.4 725.1,697.8 		"/>
+	</g>
+</g>
+<g id="Stairs_1_" class="st5">
+	<g id="Stairs" class="st4">
+		<polygon class="st2" points="182,140.4 423.4,1 483.7,35.8 242.3,175.2 		"/>
+		<polygon class="st0" points="242.3,175.2 483.7,35.8 483.7,105.5 242.3,244.9 		"/>
+		<polygon class="st2" points="242.3,244.9 483.7,105.5 544,140.4 302.7,279.7 		"/>
+		<polygon class="st0" points="302.7,279.7 544,140.4 544,210 302.7,349.4 		"/>
+		<polygon class="st2" points="302.7,349.4 544.1,210 604.4,244.9 363,384.2 		"/>
+		<polygon class="st0" points="363,384.2 604.4,244.9 604.4,314.6 363,453.9 		"/>
+		<polygon class="st2" points="363,453.9 604.4,314.6 664.7,349.4 423.4,488.8 		"/>
+		<polygon class="st0" points="423.4,488.7 664.7,349.4 664.7,419.1 423.4,558.4 		"/>
+		<polygon class="st2" points="423.4,558.4 664.8,419.1 725.1,453.9 483.7,593.3 		"/>
+		<polygon class="st0" points="483.7,593.3 725.1,453.9 725.1,523.6 483.7,662.9 		"/>
+		<polyline class="st2" points="182,140.4 242.3,175.2 242.3,244.9 302.7,279.7 302.7,349.4 363,384.2 363,453.9 423.4,488.8 
+			423.4,558.4 483.7,593.3 483.7,662.9 182,488.8 182,140.4 		"/>
+	</g>
+</g>
+<g id="Floor_1_" class="st5">
+	<g id="Floor" class="st4">
+		<polygon class="st2" points="363.1,523.6 121.7,384.2 121.7,349.4 363.1,488.8 		"/>
+		<polygon class="st0" points="363.1,523.6 725.1,314.6 725.1,279.7 363,488.8 		"/>
+		<polygon class="st2" points="363.1,488.7 725.1,279.7 483.7,140.4 121.7,349.4 		"/>
+	</g>
+</g>
+<g id="Corner_1_" class="st5">
+	<g id="Corner" class="st4">
+		<polygon class="st2" points="182,314.5 302.7,384.2 423.4,314.6 544.1,384.2 664.8,314.5 423.4,175.2 		"/>
+		<polygon class="st0" points="544.1,523.6 544.1,384.2 664.8,314.5 664.8,453.9 		"/>
+		<polygon class="st2" points="544.1,523.6 544.1,384.2 423.4,314.5 423.4,453.9 		"/>
+		<polygon class="st2" points="302.7,523.6 302.7,384.2 182,314.5 182,453.9 		"/>
+		<polygon class="st0" points="302.7,523.6 302.7,384.2 423.4,314.5 423.4,453.9 		"/>
+	</g>
 </g>
 </svg>
