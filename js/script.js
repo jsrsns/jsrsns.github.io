@@ -1,6 +1,6 @@
 $(document).ready(function() {
 /* Random background image */
-var bgImageArray = ['/images/Beam.svg','/images/Big Stairs.svg','/images/Boxes.svg','/images/Bricks.svg','/images/Corner.svg','/images/Files.svg','/images/Flag.svg','/images/Floor.svg','/images/Ladder.svg','/images/Pillar.svg','/images/Stairs.svg','/images/Wall.svg','/images/Wide Stairs.svg'],
+var bgImageArray = ['/images/Beam.svg','/images/Big_Stairs.svg','/images/Boxes.svg','/images/Bricks.svg','/images/Corner.svg','/images/Files.svg','/images/Flag.svg','/images/Floor.svg','/images/Ladder.svg','/images/Pillar.svg','/images/Stairs.svg','/images/Wall.svg','/images/Wide_Stairs.svg'],
   selectBG1 = bgImageArray[Math.floor(Math.random() * bgImageArray.length)];
   selectBG2 = bgImageArray[Math.floor(Math.random() * bgImageArray.length)];
   selectBG3 = bgImageArray[Math.floor(Math.random() * bgImageArray.length)];
