@@ -1,10 +1,10 @@
 $(document).ready(function() {
 /* Random background image */
-var colors = ['#e6e6fa', '#f0e68c', '#6495ed', '#f8f8fa', '#0000cd', '#20b2aa', '#800000', '#ff4500'];
+var images = ['/images/Stairs.svg', '/images/Wall.svg', '#/images/Floor.svg', '/images/Ladder.svg', '/images/Flag.svg', '/images/Beam.svg', '/images/Boxes.svg', '/images/Bricks.svg'];
 
 var changeBG = function() {
-  var bgStart = colors[Math.floor(Math.random() * colors.length)];
-  $(this).css('background-color', bgStart);
+  var bgStart = images[Math.floor(Math.random() * images.length)];
+  $(this).css('background-image', 'url(' bgStart ')';
 };
 var el = $('#top-left, #top-right, #bottom-left, #bottom-right');
 $.each(el, changeBG);
