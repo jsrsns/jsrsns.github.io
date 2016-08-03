@@ -26,6 +26,9 @@ p {
 .home {
   display: block;
 }
+.logo {
+  display: none;
+}
 #nav {
   display: block;
   text-align: right;
