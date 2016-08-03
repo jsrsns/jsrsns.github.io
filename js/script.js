@@ -4,7 +4,7 @@ var bgImageArray = ['/images/Stairs.svg','/images/Ladder.svg','/images/Boxes.svg
   selectBG = bgImageArray[Math.floor(Math.random() * bgImageArray.length)];
   
 
-$('body').css('background', 'url(' + selectBG + ')')
+$('#top-left').css('background', 'url(' + selectBG + ')')
 });
 
 /* Joes Roosens - jsrsns.be */
