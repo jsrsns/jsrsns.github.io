@@ -7,7 +7,9 @@ var bgImageArray = ['/images/Beam.svg','/images/Big_Stairs.svg','/images/Boxes.s
   selectBG4 = bgImageArray[Math.floor(Math.random() * bgImageArray.length)];
   
 
-$('#top-left').css('background-image', 'url(' + selectBG1 + ')');
+$('#top-left').hover(function(){
+  $(this).css('background-image' , 'url(' + selectBG1 + ')')
+});
 $('#top-right').css('background-image', 'url(' + selectBG2 + ')')
 $('#bottom-left').css('background-image', 'url(' + selectBG3 + ')')
 $('#bottom-right').css('background-image', 'url(' + selectBG4 + ')')
