@@ -23,6 +23,21 @@ p {
   padding: 30px 0 0;
   z-index: 2;
 }
+#header .container {
+  display: table
+  table-layout: fixed;
+  width: 100%;
+}
+.header-left {
+  float: none;
+  width: 33.333%;
+  display: table-cell;
+}
+.header-right {
+  float: none;
+  width: 66,666%;
+  display: table-cell;
+}
 .home {
   display: block;
 }
