@@ -27,8 +27,18 @@ p {
 .full {
   width: 100%;
 }
+.table-cell {
+  float: none;
+  display: table-cell;
+}
 .center {
   text-align: center;
+}
+.left {
+  width: 33.333%;
+}
+.right {
+  width: 66,666%;
 }
 /* Header, title and navbar */
 #header {
@@ -38,16 +48,6 @@ p {
   height: 100px;
   padding: 30px 0 0;
   z-index: 2;
-}
-.header-left {
-  float: none;
-  width: 33.333%;
-  display: table-cell;
-}
-.header-right {
-  float: none;
-  width: 66,666%;
-  display: table-cell;
 }
 .home {
   display: block;
