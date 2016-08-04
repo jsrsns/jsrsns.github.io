@@ -119,6 +119,19 @@ p {
 .social li a:hover {
   text-decoration: none;
 }
+.close {
+color: #fff;
+background: #000;
+position: absolute;
+display: block;
+top: 0;
+right: 0;
+font-size: 24px;
+font-weight: bold;
+padding: 15px;
+cursor: pointer;
+z-index: 10;
+}
 /* Four tiles */
 #top-left {
   background: transparent center/contain no-repeat;
