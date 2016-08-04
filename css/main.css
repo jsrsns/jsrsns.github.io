@@ -71,19 +71,20 @@ p {
 /* Content */
 #content {
   font-family: ;
+  color: #fff;
 }
 .about {
   position: absolute;
   /* display: none; */
   top: 100px;
   left: -webkit-calc( (100vw - 1050px) / 2 );
-	left: -moz-calc( (100vw - 1050px) / 2 );
-	left: calc( (100vw - 1050px) / 2 );
-	right: -webkit-calc( (100vw - 1050px) / 2 );
-	right: -moz-calc( (100vw - 1050px) / 2 );
-	right: calc( (100vw - 1050px) / 2 );
-	z-index: 5;
-	background: #fff;
+  left: -moz-calc( (100vw - 1050px) / 2 );
+  left: calc( (100vw - 1050px) / 2 );
+  right: -webkit-calc( (100vw - 1050px) / 2 );
+  right: -moz-calc( (100vw - 1050px) / 2 );
+  right: calc( (100vw - 1050px) / 2 );
+  z-index: 5;
+  background: #000;
 }
 .about:after {
   position: absolute;
