@@ -40,6 +40,10 @@ p {
 .right {
   width: 66,666%;
 }
+.frame {
+  max-width: 800px;
+	margin: 0 auto;
+}
 /* Header, title and navbar */
 #header {
   position: fixed;
@@ -92,6 +96,25 @@ p {
   bottom: -70px;
   height: 70px;
   width: 1px;
+}
+.social {
+  padding: 15px 40px 60px;
+}
+.social li {
+  color: #fff;
+  list-style: none;
+  padding: 2px;
+}
+.social li:before {
+  content: '☓';
+  padding: 0 5px;
+}
+.social li a {
+  color: #fff;
+  text-decoration: underline;
+}
+.social li a:hover {
+  text-decoration: none;
 }
 /* Four tiles */
 #top-left {
