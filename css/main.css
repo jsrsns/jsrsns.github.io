@@ -80,7 +80,7 @@ p {
 .about {
   position: absolute;
   /* display: none; */
-  top: 100px;
+  top: 150px;
   left: -webkit-calc( (100vw - 1050px) / 2 );
   left: -moz-calc( (100vw - 1050px) / 2 );
   left: calc( (100vw - 1050px) / 2 );
