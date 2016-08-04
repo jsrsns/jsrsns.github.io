@@ -24,12 +24,12 @@ p {
   table-layout: fixed;
   width: 100%;
 }
-.full {
-  width: 100%;
-}
 .table-cell {
   float: none;
   display: table-cell;
+}
+.full {
+  width: 100%;
 }
 .center {
   text-align: center;
@@ -69,6 +69,29 @@ p {
   color: #000;
 }
 /* Content */
+#content {
+  font-family: ;
+}
+.about {
+  position: absolute;
+  /* display: none; */
+  top: 100px;
+  left: -webkit-calc( (100vw - 1050px) / 2 );
+	left: -moz-calc( (100vw - 1050px) / 2 );
+	left: calc( (100vw - 1050px) / 2 );
+	right: -webkit-calc( (100vw - 1050px) / 2 );
+	right: -moz-calc( (100vw - 1050px) / 2 );
+	right: calc( (100vw - 1050px) / 2 );
+	z-index: 5;
+	background: #fff;
+}
+.about:after {
+  position: absolute;
+  content: "";
+  bottom: -70px;
+  height: 70px;
+  width: 1px;
+}
 /* Four tiles */
 #top-left {
   background: transparent center/contain no-repeat;
