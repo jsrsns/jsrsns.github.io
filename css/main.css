@@ -6,8 +6,8 @@ body {
 }
 
 /* Titles and text styling */
-.link { color: medium blue; }
-.link:hover { }
+.link { color: mediumblue; }
+.link:hover { text-decoration: none; }
 
 /* Design elements */
 .container { }
