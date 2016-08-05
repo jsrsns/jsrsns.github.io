@@ -5,6 +5,18 @@ body {
   line-height: 28px;
 }
 
+/* Titles and text styling */
+.link a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 3px solid;
+}
+.link a:hover {
+  color: #fff;
+  background: #000;
+  border-bottom: 3px solid #000;
+}
+
 /* Design elements */
 .container { }
 .wrapper {
