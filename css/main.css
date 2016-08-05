@@ -6,16 +6,8 @@ body {
 }
 
 /* Titles and text styling */
-.link {
-  color: #000;
-  text-decoration: none;
-  border-bottom: 3px solid;
-}
-.link:hover {
-  color: #fff;
-  background: #000;
-  border-bottom: 3px solid #000;
-}
+.link { color: medium blue; }
+.link:hover { }
 
 /* Design elements */
 .container { }
