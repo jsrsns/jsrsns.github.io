@@ -6,6 +6,7 @@ body {
 }
 
 /* Titles and text styling */
+.link { }
 .link a {
   color: #000;
   text-decoration: none;
@@ -99,7 +100,7 @@ body {
 }
 .social li:before {
   padding: 0 5px;
-  content: '→'; /* ☓ */
+  content: '☓';
 }
 .social li a {
   color: #000;
