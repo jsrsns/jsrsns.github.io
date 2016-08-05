@@ -87,7 +87,7 @@ body {
 }
 .social li:before {
   padding: 0 5px;
-  content: '☓';
+  content: '→'; /* ☓ */
 }
 .social li a {
   color: #000;
