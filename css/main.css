@@ -55,7 +55,7 @@ body {
 #nav li a { color: #000; }
 
 /* Content */
-#content { color: #000; }
+#content { color: #000; } /* #fff */
 .about {
   position: absolute;
   top: 150px;
@@ -67,7 +67,7 @@ body {
   right: calc( (100vw - 1050px) / 2 );
   z-index: 5;
   display: none;
-  background: #fff; /* edit */
+  background: #fff; /* #000 */
   border: 3px solid; /* edit */
 }
 .about:after {
@@ -91,11 +91,11 @@ body {
 }
 .social li a {
   color: #000;
-  text-decoration: none; /* edit */
+  text-decoration: none; /* underline */
   border-bottom: 3px solid; /* edit */
 }
 .social li a:hover {
-  color: #fff; /* edit */
+  color: #fff; /* #000 */
   background-color: #000; /* edit */
   border-bottom: 3px solid #000; /* edit */
 }
@@ -106,10 +106,10 @@ body {
   z-index: 10;
   display: block;
   padding: 15px;
-  color: #fff;
+  color: #000; /* #000 */
   font-size: 24px;
   font-weight: bolder;
-  background: #000;
+  background: #fff; /* #fff */
   cursor: pointer;
 }
 
