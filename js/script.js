@@ -18,7 +18,7 @@ if (width <= '755') {
   var frame = wide;
 }
 
-var nav = functioon () {
+var nav = function() {
   var x = $(this).index();
   if (x === 3) {
     //
