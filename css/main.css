@@ -49,6 +49,9 @@ p {
   max-width: 800px;
   margin: 0 auto;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 
 /* Header, title and navbar */
 
