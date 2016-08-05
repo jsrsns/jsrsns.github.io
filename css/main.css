@@ -55,7 +55,7 @@ body {
 #nav li a { color: #000; }
 
 /* Content */
-#content { color: #fff; }
+#content { color: #000; }
 .about {
   position: absolute;
   top: 150px;
@@ -67,7 +67,8 @@ body {
   right: calc( (100vw - 1050px) / 2 );
   z-index: 5;
   display: none;
-  background: #000;
+  background: #fff; /* edit */
+  border: 3px solid; /* edit */
 }
 .about:after {
   position: absolute;
@@ -79,8 +80,9 @@ body {
 .info { padding: 50px 0 0; }
 .social { padding: 15px 40px 60px; }
 .social li {
+  display: inline-block; /* edit */
   padding: 2px;
-  color: #fff;
+  color: #000;
   list-style: none;
 }
 .social li:before {
@@ -88,10 +90,15 @@ body {
   content: '☓';
 }
 .social li a {
-  color: #fff;
-  text-decoration: underline;
+  color: #000;
+  text-decoration: none; /* edit */
+  border-bottom: 3px solid; /* edit */
 }
-.social li a:hover { text-decoration: none; }
+.social li a:hover {
+  color: #fff; /* edit */
+  background-color: #000; /* edit */
+  border-bottom: 3px solid #000; /* edit */
+}
 .close {
   position: absolute;
   top: 0;
