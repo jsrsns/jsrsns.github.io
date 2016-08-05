@@ -42,7 +42,7 @@ var nav = function() {
 };
 link.on('click', nav);
 var fade = function() {
-  pages.fadeout();
+  pages.fadeOut();
   setTimeout(function() {
     $('iframe').css('height', '0px');
   }, 300);
