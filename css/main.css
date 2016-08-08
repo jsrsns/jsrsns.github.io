@@ -14,6 +14,12 @@ body {
 /* Titles and text styling */
 .link { color: mediumblue; }
 .link:hover { text-decoration: none; }
+@media screen and (max-width: 755px) {
+  .link {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
 
 /* Design elements */
 .container { }
@@ -69,6 +75,11 @@ body {
     position: relative;
     height: auto;
     padding: 0;
+  }
+}
+@media screen and (max width: 480px) {
+  #header {
+    margin-bottom: 100px;
   }
 }
 .home { display: block; }
@@ -140,6 +151,33 @@ body {
     left: 20px;
   }
 }
+@media screen and (max-width: 755px) {
+  #about {
+    margin: 0 auto;
+    width: 100vw;
+  }
+  .about {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    margin: 0;
+    padding: 15px;
+    color: #000;
+    background-color: #fff;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch
+  }
+  .about p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+  }
+}
 .info { padding: 50px 0 0; }
 .social { padding: 15px 40px 60px; }
 .social li {
@@ -174,6 +212,13 @@ body {
   font-weight: bolder;
   background: #fff; /* #fff */
   cursor: pointer;
+}
+@media screen and (max-width: 755px) {
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
 }
 
 /* Four tiles */
