@@ -14,20 +14,4 @@ Personal website
 * Use shorthand hex values when available (e.g. `#fff` instead of `#ffffff`).
 * Avoid specifying units for zero values (e.g. `margin: 0;` instead of `margin: 0px`).
 
-`/* Bad CSS */
-.selector, .selector-secondary, .selector[type=text] {
-  padding:15px;
-  margin:0px 0px 15px;
-  background-color:rgba(0, 0, 0, 0.5);
-  box-shadow:0px 1px 2px #CCC,inset 0 1px 0 #FFFFFF
-}
-
-/* Good CSS */
-.selector,
-.selector-secondary,
-.selector[type="text"] {
-  padding: 15px;
-  margin-bottom: 15px;
-  background-color: rgba(0,0,0,.5);
-  box-shadow: 0 1px 2px #ccc, inset 0 1px 0 #fff;
-}`
+`.selector,.selector-two { }`
