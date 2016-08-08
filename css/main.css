@@ -33,8 +33,10 @@ body {
 }
 .full { width: 100%; }
 .center { text-align: center; }
-.left { width: 33.333%; }
-.right { width: 66,666%; }
+/*.left { width: 33.333%; }*/
+.left { text-align: left; }
+.right { text-align: right; }
+/*.right { width: 66,666%; }*/
 .frame {
   margin: 0 auto;
   max-width: 800px;
