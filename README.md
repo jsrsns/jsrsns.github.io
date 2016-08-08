@@ -29,4 +29,5 @@ Personal website
   margin-bottom: 15px;
   background-color: rgba(0,0,0,.5);
   box-shadow: 0 1px 2px #ccc, inset 0 1px #fff;
+}
 ```
