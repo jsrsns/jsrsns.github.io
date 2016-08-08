@@ -1,10 +1,12 @@
 # jsrsns.github.io
 Personal website
 
-| CSS                             ||
-| ----------------------------------  |
-| Syntax                              |
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+| <ul><li>item1</li><li>item2</li></ul>| See the list | from the first column|
 
 Syntax
 When grouping selectors, keep individual selectors to a single line.
