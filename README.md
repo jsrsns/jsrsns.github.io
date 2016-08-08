@@ -1,8 +1,9 @@
 # jsrsns.github.io
 Personal website
 
-CSS
-Syntax
+| CSS                                                                                                 |
+| ------------------------------------------------ | ------------------------------------------------ |
+| Syntax
 * When grouping selectors, keep individual selectors to a single line.
 * Include one space before the opening brace of declaration blocks.
 * Place closing braces of declaration blocks on a new line.
