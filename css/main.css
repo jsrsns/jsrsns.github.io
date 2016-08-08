@@ -22,6 +22,10 @@ body {
   max-width: 1050px;
   padding: 0 50px;
 }
+@media screen and (max-width: 755px) {
+  .wrapper { padding: 0px; }
+  }
+}
 .table {
   display: table;
   width: 100%;
@@ -31,11 +35,16 @@ body {
   display: table-cell;
   float: none;
 }
-@media screen and (max-width: 755px) {
-  .table-cell { display: block; }
-}
 .table-left { width: 33.333%; }
 .table-right { width: 66.666%; }
+@media screen and (max-width: 755px) {
+  .table-cell { display: block; }
+  .table-left,
+  .table-right {
+    width: 100%;
+    text-align: center;
+  }
+}
 .full { width: 100%; }
 .center { text-align: center; }
 .left { text-align: left; }
@@ -55,8 +64,27 @@ body {
   height: 100px;
   padding: 30px 0 0;
 }
+@media screen and (max-width: 755px) {
+  #header {
+    position: relative;
+    height: auto;
+    padding: 0;
+  }
+}
 .home { display: block; }
 .logo { display: none; }
+@media screen and (max-width: 755px) {
+  .home {
+    display: none;
+    height: 0;
+    color: transparent;
+  }
+  .logo {
+    display: block;
+    margin: 30px auto 0;
+    max-width: 400px;
+  }
+}
 #nav {
   display: block;
   text-align: right;
@@ -72,6 +100,14 @@ body {
   #nav {
     padding: 0;
     text-align: center;
+  }
+   #nav li {
+    display: block;
+    font-size: 24px;
+    }
+  #nav li a {
+    color: #000;
+    text-decoration: underline;
   }
 }
 
@@ -203,6 +239,7 @@ body {
 }
 @media screen and (max-width: 755px) {
   #footer { display: none; }
+  #footer p { font-size: 24px; }
 }
 
 /* Joes Roosens - jsrsns.be */
