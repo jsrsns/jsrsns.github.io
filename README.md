@@ -15,5 +15,7 @@ Personal website
 * Avoid specifying units for zero values (e.g. `margin: 0;` instead of `margin: 0px`).
 
 ```
-.selector,.selector-two
+.selector,.selector-two {
+  padding: 15px;
+  }
 ```
