@@ -30,7 +30,6 @@ body {
 }
 @media screen and (max-width: 755px) {
   .wrapper { padding: 0px; }
-  }
 }
 .table {
   display: table;
