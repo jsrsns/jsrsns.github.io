@@ -4,6 +4,12 @@ body {
   font-size: 24px;
   line-height: 28px;
 }
+@media screen and (max-width: 755px) {
+  body {
+    color: #000;
+    background-color: #fff;
+  }
+}
 
 /* Titles and text styling */
 .link { color: mediumblue; }
@@ -57,6 +63,12 @@ body {
   cursor: pointer;
 }
 #nav li a { color: #000; }
+@media screen and (max-width: 755px) {
+  #nav {
+    padding: 0;
+    text-align: center;
+  }
+}
 
 /* Content */
 #content { color: #000; } /* #fff */
@@ -80,6 +92,12 @@ body {
   width: 1px;
   height: 70px;
   content: "";
+}
+@media screen and (max-width: 1080px) {
+  .about {
+    right: 20px;
+    left: 20px;
+  }
 }
 .info { padding: 50px 0 0; }
 .social { padding: 15px 40px 60px; }
@@ -162,6 +180,14 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+@media screen and (max-width: 755px) {
+  #top-left,
+  #top-right,
+  #bottom-left,
+  #bottom-right {
+    display: none;
+  }
+}
 
 /* Footer */
 #footer {
@@ -170,7 +196,10 @@ body {
   bottom: 0;
   width: 100vw;
 }
-
-/* Responsive */
+@media screen and (max-width: 755px) {
+  #footer {
+    display: none;
+  }
+}
 
 /* Joes Roosens - jsrsns.be */
