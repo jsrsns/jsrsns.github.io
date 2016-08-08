@@ -17,8 +17,7 @@ Personal website
 ```css
 /* Bad */
 .selector,.selector-two,.selector-three{
-  padding:15px;
-  margin:0px 0px 15px;
+  padding:15px; margin:0px 0px 15px;
   background-color:rba(0, 0, 0, 0.5);
   box-shadow:0px 1px 2px #CCC,inset 0 1px #FFFFFF }
   
