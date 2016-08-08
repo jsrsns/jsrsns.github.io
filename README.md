@@ -1,8 +1,8 @@
 # jsrsns.github.io
 Personal website
 
-|HTML                                   |
-| ------------- |:-------------:| -----:|
-| syntax        | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+CSS
+Syntax
+* When grouping selectors, keep indiviual selectors to a single line.
+* Include one space before the opening brace of declaration blocks.
+* Place closing braces of declaration blocks on a new line.
