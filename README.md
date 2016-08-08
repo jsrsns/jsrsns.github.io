@@ -23,6 +23,14 @@ Personal website
           
         </ul>
       </td>
+      <td>
+        .selector, .selector-two, .selector-three {
+          padding:15px;
+          margin:0px 0px 15px;
+          background-color:#ffffff;
+          box-shadow:0px 1px 2px #ffffff
+          }
+      </td>
     </tr>
   </tbody>
 </table>
