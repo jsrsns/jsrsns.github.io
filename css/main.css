@@ -213,6 +213,11 @@ img {
   background-color: #000; /* edit */
   border-bottom: 3px solid #000; /* edit */
 }
+@media screen and (max-width: 755px) {
+  .social li {
+    display: block;
+  }
+}
 .close {
   position: absolute;
   top: 0;
