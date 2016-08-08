@@ -59,6 +59,16 @@ var changeBG = function() {
 var el = $('#top-left, #top-right, #bottom-left, #bottom-right');
 $.each(el, changeBG);
 el.on('mouseenter', changeBG);
+
+/* Random logo on mobile */
+var images = ['/images/Beam.svg', '/images/Boxes.svg', '/images/Corner.svg', '/images/Files.svg', '/images/Flag.svg', '/images/Floor.svg', '/images/Folds.svg', '/images/Ladder.svg', '/images/Pillar.svg', '/images/Stairs.svg', '/images/Wall.svg'];
+
+var RandomLogo = function () {
+  var randOlogo = images[Math.floor(Math.ramdom() * images.length)];
+  $('logo').src=randOlogo;
+}
+RandomLogo();
+
 });
 
 /* Joes Roosens - jsrsns.be */
