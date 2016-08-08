@@ -1,8 +1,9 @@
 # jsrsns.github.io
 Personal website
 
-| **CSS**                           ||
-| ---------------------------------- |
+| **CSS**                             ||
+| ----------------------------------  |
+| Syntax                              |
 
 
 Syntax
