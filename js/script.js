@@ -65,7 +65,7 @@ var images = ['/images/Beam.svg', '/images/Boxes.svg', '/images/Corner.svg', '/i
 
 var RandomLogo = function () {
   var randOlogo = images[Math.floor(Math.random() * images.length)];
-  $('.logo').attr('src',randOlogo);
+  $('.random').attr('src',randOlogo);
 }
 RandomLogo();
 });
