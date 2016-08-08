@@ -14,7 +14,7 @@ Personal website
 * Use shorthand hex values when available (e.g. `#fff` instead of `#ffffff`).
 * Avoid specifying units for zero values (e.g. `margin: 0;` instead of `margin: 0px`).
 
-```
+```css
 /* BAD */
 .selector,.selector-two {
   padding:15px;
