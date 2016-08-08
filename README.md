@@ -1,11 +1,11 @@
 # jsrsns.github.io
 Personal website
 
-| CSS           |               |       |
-| ------------- |---------------| :-----|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| CSS           |               |
+| ------------- |---------------|
+| syntax <ul><li>When grouping selectors, keep individual selectors to a single line.</li><li>Include one space before the opening brace of declaration blocks.</li</ul>>      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
 | <ul><li>item1</li><li>item2</li></ul>| See the list | from the first column|
 
 Syntax
