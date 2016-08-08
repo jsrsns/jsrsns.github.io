@@ -111,11 +111,11 @@ body {
     padding: 0;
     text-align: center;
   }
-   #nav li {
+   .li {
     display: block;
     font-size: 24px;
     }
-  #nav li a {
+  .li a {
     color: #000;
     text-decoration: underline;
   }
