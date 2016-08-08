@@ -68,7 +68,7 @@ var RandomLogo = function () {
   $('logo').src=randOlogo;
 }
 RandomLogo();
-console.log(RandOlogo);
+console.log(randOlogo);
 });
 
 /* Joes Roosens - jsrsns.be */
