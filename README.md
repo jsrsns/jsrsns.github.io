@@ -15,7 +15,11 @@ Personal website
 * Avoid specifying units for zero values (e.g. `margin: 0;` instead of `margin: 0px`).
 
 ```
+/* BAD */
 .selector,.selector-two {
-  padding: 15px;
+  padding:15px;
+  margin:0px 0px 15px;
+  background-color:rba(0, 0, 0, 0.5);
+  box-shadow:0px 1px 2px #CCC,inset 0 1px #FFFFFF
   }
 ```
