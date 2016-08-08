@@ -166,6 +166,7 @@ body {
     padding: 15px;
     color: #000;
     background-color: #fff;
+    border: none;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch
   }
