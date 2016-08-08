@@ -216,6 +216,7 @@ img {
 @media screen and (max-width: 755px) {
   .social li {
     display: block;
+    text-align: left;
   }
 }
 .close {
