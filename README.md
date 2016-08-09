@@ -54,6 +54,22 @@ Ensure proper rendering of your content by declaring an explicit character encod
 #### CSS and JavaScript includes
 Typically there is no need to specify a ``` type ``` when including CSS and JavaScript files as ``` text/css ``` and ``` text/javascript ``` are their respective default values.
 
+#### Don't use ``` @import ```
+Compared to ``` <link> ```s, ``` @import``` is slower, add extra page requests, and can cause problems.
+* Use multiple ``` <link> ``` elements.
+* Compile CSS with a preprocessor like Sass or Less into a single file.
+* Use features provided by Jekyll, Rails or other environments to concatenate CSS.
+
+```html
+<!-- use link elements -->
+<link rel="stylesheet" href="stye.css">
+
+<!-- avoid @import -->
+<style>
+  @import url("style.css");
+</style>
+```
+
 #### Attribute order
 HTML attributes should come in this order
 * ``` class ```
