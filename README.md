@@ -1,6 +1,8 @@
 # jsrsns.github.io
 Personal website
 
+## HTML
+## CSS
 ### Syntax
 * When grouping selectors, keep individual selectors to a single line.
 * Include one space before the opening brace of declaration blocks.
@@ -52,4 +54,23 @@ Place media queries close to their relevant rule sets and not in a seperate styl
   .element-three { ... }
 }
 ```
+### Single declarations
+Remove line breaks from rule sets with only a single declaration.
 
+```css
+/* Single declarations in a single line */
+.element-one    { width: 60px; }
+.element-two    { width: 140px; }
+.element-three  { width: 220px; }
+
+/* Multiple declarations, one per line */
+.element {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url(../img/background.png);
+}
+.element-two    { background-position: 0 0; }
+.element-three  { background-position: 0 -20px; }
+.element-four   { background-position: 0 -40px; }
+```
