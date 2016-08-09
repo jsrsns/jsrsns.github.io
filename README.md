@@ -2,6 +2,52 @@
 Personal website
 
 ## HTML
+### Syntax
+* Nested elements should be indented once.
+* Always use double quotes, never single quotes, on attributes.
+* Don't omit optional closing tags (e.g. ``` </li> ``` or ``` </body > ```.
+
+```html
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="logo">
+    <h1 class="hello world">Hello, world!</h1>
+  </body>
+</html>
+```
+
+### HTML5 Doctype
+Enforce standard mode and consistent rendering with the doctype at the beginning of every HTML page.
+
+### Langauge attribute
+From the HTML5 spec:
+> Authors are encouraged to specify a lang attribute on the root html
+> element, giving the document's language. This aids speech synthesis
+> tools to determine what pronunciations to use, translation tools to
+> determine what rules to use, and so forth.
+
+### IE compatibilty mode
+Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with **edge mode**.
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+```
+
+### Character encoding
+Ensure proper rendering of your content by declaring an explicit character encoding. Avoid using character entities in your HTML.
+
+```html
+<head>
+  <meta charset="UTF-8">
+</head>
+```
+
+
+
 ## CSS
 ### Syntax
 * When grouping selectors, keep individual selectors to a single line.
