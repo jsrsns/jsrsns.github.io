@@ -8,7 +8,7 @@ body {
   font-size: 24px;
   line-height: 28px;
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   body {
     color: #000;
     background-color: #fff;
@@ -18,7 +18,7 @@ body {
 /* Titles and text styling */
 .link { color: mediumblue; }
 .link:hover { text-decoration: none; }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   .link {
     font-size: 18px;
     line-height: 22px;
@@ -32,7 +32,7 @@ body {
   max-width: 1050px;
   padding: 0 50px;
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   .wrapper { padding: 0px; }
 }
 .table {
@@ -46,7 +46,7 @@ body {
 }
 .table-left { width: 33.333%; }
 .table-right { width: 66.666%; }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   .table-cell { display: block; }
   .table-left,
   .table-right {
@@ -77,7 +77,7 @@ img {
   height: 100px;
   padding: 30px 0 0;
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   #header {
     position: relative;
     height: auto;
@@ -91,7 +91,7 @@ img {
 }
 .home { display: block; }
 .logo { display: none; }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   .home {
     display: none;
     height: 0;
@@ -114,7 +114,7 @@ img {
   cursor: pointer;
 }
 #nav li a { color: #000; }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   #nav {
     padding: 0;
     text-align: center;
@@ -157,13 +157,13 @@ img {
   height: 70px;
   content: "";
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
   .about {
     right: 20px;
     left: 20px;
   }
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   #about {
     margin: 0 auto;
     width: 100vw;
@@ -213,7 +213,7 @@ img {
   background-color: #000; /* edit */
   border-bottom: 3px solid #000; /* edit */
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   .social li {
     display: block;
     text-align: left;
@@ -232,7 +232,7 @@ img {
   background: #fff; /* #fff */
   cursor: pointer;
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   .close {
     position: absolute;
     top: 0;
@@ -285,7 +285,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   #top-left,
   #top-right,
   #bottom-left,
@@ -301,7 +301,7 @@ img {
   bottom: 0;
   width: 100vw;
 }
-@media screen and (max-width: 755px) {
+@media screen and (max-width: 768px) {
   #footer { display: none; }
   #footer p { font-size: 24px; }
 }
