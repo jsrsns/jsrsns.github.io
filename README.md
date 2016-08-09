@@ -55,7 +55,7 @@ Ensure proper rendering of your content by declaring an explicit character encod
 Typically there is no need to specify a ``` type ``` when including CSS and JavaScript files as ``` text/css ``` and ``` text/javascript ``` are their respective default values.
 
 #### Don't use ``` @import ```
-Compared to ``` <link> ```s, ``` @import``` is slower, add extra page requests, and can cause problems.
+Compared to ``` <link> ```s, ``` @import``` is slower, adds extra page requests, and can cause problems.
 * Use multiple ``` <link> ``` elements.
 * Compile CSS with a preprocessor like Sass or Less into a single file.
 * Use features provided by Jekyll, Rails or other environments to concatenate CSS.
