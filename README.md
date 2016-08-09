@@ -1,6 +1,28 @@
 # jsrsns.github.io
 Personal website
 
+### Directory
+```
+.
+|
+|-- css
+|   |
+|   |-- main.css
+|
+|-- images
+|   |
+|   |-- ...
+|
+|-- js
+|   |
+|   |-- script.js
+|
+|-- README.md
+|
+|-- index.thml
+
+```
+
 ### HTML
 #### Syntax
 * Nested elements should be indented once.
