@@ -1,8 +1,8 @@
 # jsrsns.github.io
 Personal website
 
-## HTML
-### Syntax
+### HTML
+#### Syntax
 * Nested elements should be indented once.
 * Always use double quotes, never single quotes, on attributes.
 * Don't omit optional closing tags (e.g. ``` </li> ``` or ``` </body > ```.
