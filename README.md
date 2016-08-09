@@ -74,3 +74,11 @@ Remove line breaks from rule sets with only a single declaration.
 .element-three  { background-position: 0 -20px; }
 .element-four   { background-position: 0 -40px; }
 ```
+### Shorthand notation
+Limit use of shorthand notations to instances where you must explicitly set all the available values.
+Common overused shorthand properties:
+* ```css padding ```
+* ```css margin ```
+* ```css font ```
+* ```css background ```
+* ```css border ```
