@@ -38,3 +38,18 @@ Property declarations should be grouped in the following order:
 3. Typographie
 4. Visual
 
+### media query
+Place media queries close to their relevant rule sets and not in a seperate stylesheet or at the end of the document.
+
+```css
+.element { ... }
+.element-two { ... }
+.element-threee { ... }
+
+@media (min-width: 480px) {
+  .element { ... }
+  .element-two { ... }
+  .element-three { ... }
+}
+```
+
