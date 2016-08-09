@@ -81,4 +81,15 @@ Common overused shorthand properties:
 * ``` margin ```
 * ``` font ```
 * ``` background ```
-* ``` css border ```
+* ``` border ```
+
+### Comments
+Ensure code is descriptive, well documented, and approacable. Use comments to convey context and purpose.
+
+### Class names
+* Keep class names lowercase.
+* Use dashes and not underscore or camelCase (e.g. ``` .btn-confirm ``` and not ``` btn_confirm ``` or ``` btnConfirm ```.
+* Avoid excessive and arbitrary shorthand ``` .btn ``` is short for *button*, but ``` .s ``` does not mean anything.
+* Keep class names short.
+* Use meaningful mames.
+* Prefix classes based on the closest parent class.
