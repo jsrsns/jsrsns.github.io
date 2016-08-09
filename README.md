@@ -32,3 +32,15 @@ Personal website
 }
 ```
 ### Declaration order
+Property declarations should be grouped in the following order:
+1. Positioning
+  * Position
+  * top
+  * right
+  * bottom
+  * left
+  * z-index
+2. Box model
+3. Typographie
+4. Visual
+
