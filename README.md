@@ -30,6 +30,11 @@ From the HTML5 spec:
 > tools to determine what pronunciations to use, translation tools to
 > determine what rules to use, and so forth.
 
+```html
+<html lang="en-us">
+  <!-- ... -->
+</html>
+```
 ### IE compatibilty mode
 Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with **edge mode**.
 
