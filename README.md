@@ -1,7 +1,7 @@
 # jsrsns.github.io
 Personal website
 
-**Syntax**
+### Syntax
 * When grouping selectors, keep individual selectors to a single line.
 * Include one space before the opening brace of declaration blocks.
 * Place closing braces of declaration blocks on a new line.
@@ -31,3 +31,4 @@ Personal website
   box-shadow: 0 1px 2px #ccc, inset 0 1px #fff;
 }
 ```
+### Declaration order
