@@ -22,7 +22,7 @@ Personal website
 |-- index.thml
 
 ```
-
+## Styleguide
 ### HTML
 #### Syntax
 * Nested elements should be indented once.
