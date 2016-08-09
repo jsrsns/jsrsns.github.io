@@ -64,6 +64,7 @@ Whenever possible, avoid superfluous parent elements.
 <span class="icon">
   <img src="...">
 </span>
+
 <!-- Better -->
 <img class="icon" src="...">
 ```
