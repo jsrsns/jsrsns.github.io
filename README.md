@@ -20,10 +20,10 @@ Personal website
 </html>
 ```
 
-### HTML5 Doctype
+#### HTML5 Doctype
 Enforce standard mode and consistent rendering with the doctype at the beginning of every HTML page.
 
-### Langauge attribute
+#### Langauge attribute
 From the HTML5 spec:
 > Authors are encouraged to specify a lang attribute on the root html
 > element, giving the document's language. This aids speech synthesis
@@ -35,14 +35,14 @@ From the HTML5 spec:
   <!-- ... -->
 </html>
 ```
-### IE compatibilty mode
+#### IE compatibilty mode
 Unless circumstances require otherwise, it's most useful to instruct IE to use the latest supported mode with **edge mode**.
 
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
 
-### Character encoding
+#### Character encoding
 Ensure proper rendering of your content by declaring an explicit character encoding. Avoid using character entities in your HTML.
 
 ```html
@@ -51,10 +51,10 @@ Ensure proper rendering of your content by declaring an explicit character encod
 </head>
 ```
 
-### CSS and JavaScript includes
+#### CSS and JavaScript includes
 Typically there is no need to specify a ``` type ``` when including CSS and JavaScript files as ``` text/css ``` and ``` text/javascript ``` are their respective default values.
 
-### Attribute order
+#### Attribute order
 HTML attributes should come in this order
 * ``` class ```
 * ``` id ```, ```name ```
@@ -74,8 +74,8 @@ Whenever possible, avoid superfluous parent elements.
 <img class="icon" src="...">
 ```
 
-## CSS
-### Syntax
+### CSS
+#### Syntax
 * When grouping selectors, keep individual selectors to a single line.
 * Include one space before the opening brace of declaration blocks.
 * Place closing braces of declaration blocks on a new line.
@@ -105,14 +105,14 @@ Whenever possible, avoid superfluous parent elements.
   box-shadow: 0 1px 2px #ccc, inset 0 1px #fff;
 }
 ```
-### Declaration order
+#### Declaration order
 Property declarations should be grouped in the following order:
 1. Positioning
 2. Box model
 3. Typographie
 4. Visual
 
-### Media query
+#### Media query
 Place media queries close to their relevant rule sets and not in a seperate stylesheet or at the end of the document.
 
 ```css
@@ -126,7 +126,7 @@ Place media queries close to their relevant rule sets and not in a seperate styl
   .element-three { ... }
 }
 ```
-### Single declarations
+#### Single declarations
 Remove line breaks from rule sets with only a single declaration.
 
 ```css
@@ -146,7 +146,7 @@ Remove line breaks from rule sets with only a single declaration.
 .element-three  { background-position: 0 -20px; }
 .element-four   { background-position: 0 -40px; }
 ```
-### Shorthand notation
+#### Shorthand notation
 Limit use of shorthand notations to instances where you must explicitly set all the available values.
 Common overused shorthand properties:
 * ``` padding ```
@@ -155,10 +155,10 @@ Common overused shorthand properties:
 * ``` background ```
 * ``` border ```
 
-### Comments
+#### Comments
 Ensure code is descriptive, well documented, and approacable. Use comments to convey context and purpose.
 
-### Class names
+#### Class names
 * Keep class names lowercase.
 * Use dashes and not underscore or camelCase (e.g. ``` .btn-confirm ``` and not ``` btn_confirm ``` or ``` btnConfirm ```.
 * Avoid excessive and arbitrary shorthand ``` .btn ``` is short for *button*, but ``` .s ``` does not mean anything.
@@ -166,7 +166,7 @@ Ensure code is descriptive, well documented, and approacable. Use comments to co
 * Use meaningful mames.
 * Prefix classes based on the closest parent class.
  
-### Organization
+#### Organization
 * Organize sections of code by component.
 * Develop a consistent hierarchy.
 * Use white space when seperating sections of code.
