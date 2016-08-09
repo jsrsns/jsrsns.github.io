@@ -46,7 +46,27 @@ Ensure proper rendering of your content by declaring an explicit character encod
 </head>
 ```
 
+### CSS and JavaScript includes
+Typically there is no need to specify a ``` type ``` when including CSS and JavaScript files as ``` text/css ``` and ``` text/javascript ``` are their respective default values.
 
+### Attribute order
+HTML attributes should come in this order
+* ``` class ```
+* ``` id ```, ```name ```
+* ``` src ```, ``` href ```
+* ``` title ```, ``` alt ```
+
+### Reduce markup
+Whenever possible, avoid superfluous parent elements.
+
+```html
+<!-- Not so good -->
+<span class="icon">
+  <img src="...">
+</span>
+<!-- Better -->
+<img class="icon" src="...">
+```
 
 ## CSS
 ### Syntax
