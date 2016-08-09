@@ -38,7 +38,7 @@ Property declarations should be grouped in the following order:
 3. Typographie
 4. Visual
 
-### media query
+### Media query
 Place media queries close to their relevant rule sets and not in a seperate stylesheet or at the end of the document.
 
 ```css
