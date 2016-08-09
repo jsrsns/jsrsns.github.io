@@ -93,3 +93,10 @@ Ensure code is descriptive, well documented, and approacable. Use comments to co
 * Keep class names short.
 * Use meaningful mames.
 * Prefix classes based on the closest parent class.
+ 
+### Organization
+* Organize sections of code by component.
+* Develop a consistent hierarchy.
+* Use white space when seperating sections of code.
+
+
