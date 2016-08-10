@@ -7,9 +7,9 @@ Personal website
 |
 |-- css
 |   |
-|   |-- main.css
+|   |-- style.css
 |
-|-- images
+|-- img
 |   |
 |   |-- ...
 |
