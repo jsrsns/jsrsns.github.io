@@ -140,11 +140,11 @@ img {
   position: absolute;
   top: 150px;
   left: -webkit-calc( (100vw - 1050px) / 2 );
-  left: -moz-calc( (100vw - 1050px) / 2 );
-  left: calc( (100vw - 1050px) / 2 );
+  left:    -moz-calc( (100vw - 1050px) / 2 );
+  left:         calc( (100vw - 1050px) / 2 );
   right: -webkit-calc( (100vw - 1050px) / 2 );
-  right: -moz-calc( (100vw - 1050px) / 2 );
-  right: calc( (100vw - 1050px) / 2 );
+  right:    -moz-calc( (100vw - 1050px) / 2 );
+  right:         calc( (100vw - 1050px) / 2 );
   z-index: 5;
   display: none;
   background: #fff;
