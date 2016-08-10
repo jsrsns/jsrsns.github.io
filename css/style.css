@@ -14,6 +14,11 @@ body {
     background-color: #fff;
   }
 }
+img {
+  width: 100%;
+  max-height: 400px;
+}
+::-webkit-scrollbar { display: none; }
 
 /* Titles and text styling */
 .link { color: #0000cd; }
@@ -61,11 +66,6 @@ body {
 .frame {
   margin: 0 auto;
   max-width: 800px;
-}
-::-webkit-scrollbar { display: none; }
-img {
-  width: 100%;
-  max-height: 400px;
 }
 
 /* Header, title and navbar */
