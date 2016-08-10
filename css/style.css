@@ -16,7 +16,7 @@ body {
 }
 
 /* Titles and text styling */
-.link { color: mediumblue; }
+.link { color: #0000cd; }
 .link:hover { text-decoration: none; }
 @media screen and (max-width: 768px) {
   .link {
@@ -135,7 +135,7 @@ img {
 }
 
 /* Content */
-#content { color: #000; } /* #fff */
+#content { color: #000; }
 .about {
   position: absolute;
   top: 150px;
@@ -147,8 +147,8 @@ img {
   right: calc( (100vw - 1050px) / 2 );
   z-index: 5;
   display: none;
-  background: #fff; /* #000 */
-  border: 3px solid; /* edit */
+  background: #fff;
+  border: 1px solid;
 }
 .about:after {
   position: absolute;
@@ -194,7 +194,7 @@ img {
 .info { padding: 50px 0 0; }
 .social { padding: 15px 40px 60px; }
 .social li {
-  display: inline-block; /* edit */
+  display: inline-block;
   padding: 2px;
   color: #000;
   list-style: none;
@@ -205,13 +205,13 @@ img {
 }
 .social li a {
   color: #000;
-  text-decoration: none; /* underline */
-  border-bottom: 3px solid; /* edit */
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 .social li a:hover {
-  color: #fff; /* #000 */
-  background-color: #000; /* edit */
-  border-bottom: 3px solid #000; /* edit */
+  color: #fff;
+  background-color: #000;
+  border-bottom: 3px solid #000;
 }
 @media screen and (max-width: 768px) {
   .social li {
@@ -226,10 +226,10 @@ img {
   z-index: 10;
   display: block;
   padding: 15px;
-  color: #000; /* #000 */
+  color: #000;
   font-size: 24px;
   font-weight: bolder;
-  background: #fff; /* #fff */
+  background: #fff;
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
@@ -305,5 +305,3 @@ img {
   #footer { display: none; }
   #footer p { font-size: 24px; }
 }
-
-/* Joes Roosens - jsrsns.be */
