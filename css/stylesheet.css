@@ -228,7 +228,7 @@ img {
   padding: 15px;
   color: #000;
   font-size: 24px;
-  font-weight: bolder;
+  /*font-weight: bolder;*/
   background: #fff;
   cursor: pointer;
 }
