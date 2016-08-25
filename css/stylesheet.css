@@ -115,6 +115,7 @@ img {
 }
 #nav li a {
   color: #000;
+  text-decoration: none;
   border-bottom: 8px solid;
 }
 @media screen and (max-width: 768px) {
