@@ -21,6 +21,11 @@ img {
 ::-webkit-scrollbar { display: none; }
 
 /* Titles and text styling */
+p {
+	padding: 15px;
+	font-size: 24px;
+	line-height: 28px;
+}
 .link { color: #0000cd; }
 .link:hover { text-decoration: none; }
 @media screen and (max-width: 768px) {
