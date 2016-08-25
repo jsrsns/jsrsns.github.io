@@ -113,7 +113,10 @@ img {
   list-style: none;
   cursor: pointer;
 }
-#nav li a { color: #000; }
+#nav li a {
+  color: #000;
+  border-bottom: 8px solid;
+}
 @media screen and (max-width: 768px) {
   #nav {
     padding: 0;
@@ -126,6 +129,7 @@ img {
   li a {
     color: #000;
     text-decoration: underline;
+    border-bottom: none;
   }
   #work,
   #blog {
@@ -206,7 +210,7 @@ img {
 .social li a {
   color: #000;
   text-decoration: none;
-  border-bottom: 1px solid;
+  border-bottom: 8px solid;
 }
 .social li a:hover {
   color: #fff;
@@ -217,6 +221,9 @@ img {
   .social li {
     display: block;
     text-align: left;
+  }
+  .social li a {
+    border-bottom: 1px solid;
   }
 }
 .close {
