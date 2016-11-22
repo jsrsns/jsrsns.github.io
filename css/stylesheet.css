@@ -110,7 +110,7 @@ p {
 }
 #nav {
   display: block;
-  text-align: right;
+  text-align: left;
 }
 #nav li {
   display: inline-block;
