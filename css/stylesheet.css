@@ -54,8 +54,8 @@ p {
   display: table-cell;
   float: none;
 }
-.table-left { width: 33.333%; }
-.table-right { width: 66.666%; }
+.table-right { width: 33.333%; }
+.table-left { width: 66.666%; }
 @media screen and (max-width: 768px) {
   .table-cell { display: block; }
   .table-left,
