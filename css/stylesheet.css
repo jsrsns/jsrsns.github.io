@@ -216,7 +216,7 @@ p {
 .social li a {
   color: #000;
   text-decoration: none;
-  border-bottom: 8px solid;
+  border-bottom: 1px solid;
 }
 .social li a:hover {
   color: #fff;
