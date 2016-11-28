@@ -159,6 +159,9 @@ p {
   display: none;
   background: #fff;
   border: 1px solid;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 10px 10px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 10px 10px 0px;
+  -box-shadow: rgba(0, 0, 0, 1) 10px 10px 0px;
 }
 .about:after {
   position: absolute;
@@ -192,9 +195,6 @@ p {
     border: none;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    -webkit-box-shadow: rgba(0, 0, 0, 1) 10px 10px 0px;
-    -moz-box-shadow: rgba(0, 0, 0, 1) 10px 10px 0px;
-    -box-shadow: rgba(0, 0, 0, 1) 10px 10px 0px;
   }
   .about p {
     padding-left: 0;
